@@ -10,7 +10,7 @@
 # In[128]:
 
 
-import PIL
+
 import seaborn as sns
 import shutil
 import os
@@ -21,7 +21,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras import Sequential, Model
 from tensorflow.keras.layers import Embedding,Flatten, LSTM, Dense, Input, MaxPooling2D, Conv2D, Concatenate, Activation
 from tensorflow.keras.activations import softmax
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+#from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 
 # 1. Load the dataset and create three stratified splits - train/validation/test in the ratio of 70/10/20. 
@@ -30,7 +30,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 
 #code here
-base_dir_cats = '/Users/rahulsubramaniam/assignment-3-rs4128/data/cats-notcats/cats/'
+#base_dir_cats = '/Users/rahulsubramaniam/assignment-3-rs4128/data/cats-notcats/cats/'
 base_dir_notcats = '/Users/rahulsubramaniam/assignment-3-rs4128/data/cats-notcats/notcats/'
 base_dir_train = '/Users/rahulsubramaniam/assignment-3-rs4128/data/cats-notcats/train/'
 base_dir_val = '/Users/rahulsubramaniam/assignment-3-rs4128/data/cats-notcats/val/'
