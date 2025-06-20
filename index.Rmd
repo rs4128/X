@@ -1,0 +1,42 @@
+--- 
+title: "COVID, Kobe, and Injury in the NBA"
+author: "Santos Hernandez and Rahul Subramaniam"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+---
+
+# Introduction
+
+## Why basketball?
+
+In short, we are basketball nerds. A shared love of the game brought us both to the topic 
+in general. However, sports analytics have traditionally been most associated with 
+_baseball_ through [sabermetrics](https://en.wikipedia.org/wiki/Sabermetrics) -- the long established 
+empirical analysis of baseball statistics. There is even a movie about baseball stats with Brad Pitt, _Moneyball_.
+After all, the game is slow enough that anyone 
+could keep track of what the players are doing! Yet, in the sports world, this is changing. Data science is growing in basketball. Even NBA Commissioner Adam Silver has said, 
+"Analytics are part and parcel of virtually everything we do now.” 
+Evidence for this exists in the rise of the 3-point shot in modern basketball, as data analysts
+figured out this is the more efficient way to win games. 
+
+Since basketball analytics is relatively new, there are still many unanswered questions. 
+Furthermore, most analyses are trying to understand to the formula to winning more games. 
+So, we wanted to pursue questions that connected basketball players to the greater world. 
+
+We decided on these questions to explore:
+
+1. COVID19 more or less put sports on hold as seasons were paused or canceled entirely. Like other leagues, the NBA 
+suspended their season indefinitely in March 2020 after COVID was spiking in the US. However, the NBA was able to 
+successfully finish out their season in a unique way. They held 8 regular season games and the playoffs in a 
+'bubble' in Orlando, where teams all stayed together with limited interaction to the outside world. So we ask,
+**how did the COVID19 pandemic affect overall NBA team performances?**
+
+2. 2020 was also a big year for basketball for another reason, the unfortunate passing of Kobe Bryant, a player widely 
+considered to be one of the all time greats. Many players publicly stated the emotional impact of his passing, rocking the 
+basketball community. But by looking at the data, **can we see if the death of Kobe Bryant affected their game performance meaningful way?**
+
+3. Finally, although not directly related to any event of 2020, many top players had 
+to sit out the 2019-20 season entirely due to injury. Notably, 
+Kevin Durant spent his first season in Brooklyn on the bench due to an Achille's tear. 
+**In the NBA, is injury related to position or player statistics in some way? Has this changed over time through certain eras of playstyle?**
+
