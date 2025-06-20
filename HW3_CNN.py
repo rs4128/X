@@ -11,6 +11,7 @@
 
 
 import PIL
+import seaborn as sns
 import shutil
 import os
 import pandas as pd
